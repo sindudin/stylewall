@@ -30,11 +30,26 @@ $(window).scroll(function() {
     } else {
         $('nav').removeClass('fixed-header');
     }
-    /*$('header,section').each(function(i) {
+    $('header,section').each(function(i) {
         if ($(this).position().top <= scrollDistance) {
         	var id = $(this).attr('id');
             $('.menu li.active').removeClass('active');
             $('.menu li').eq(i).addClass('active');
         }
-    });*/
+    });
 }).scroll();
+
+
+$(document).ready(function() {
+  $(".room-icon-wrap ul").on('click', 'li', function(e) {
+  	//e.preventDefault();
+    $(".header-cover").removeClass("opaque");
+
+    var newImage = $(this).index();
+
+    $(".header-cover").eq(newImage).addClass("opaque");
+
+    $(".room-box").removeClass("selected");
+    $(this).addClass("selected");
+  });
+});
