@@ -15,15 +15,16 @@
         <link href="https://fonts.googleapis.com/css?family=Asap:400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/simple-line-icons.css">  
+        <link rel="stylesheet" href="css/simple-line-icons.css">
+        <link rel="stylesheet" href="css/iconmoon.css">  
     </head>
-    <body>
+    <body id="homePage">
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
         <nav id="navigation_bar">
             <div class="logo">
-                <h2>Stylewalls.in</h2>
+                <a href="index.html"><h2>Stylewalls.in</h2></a>
                 <!--<img src="img/logo-white.png" class="white-logo">
                 <img src="img/logo.png" class="black-logo"> -->
             </div>
@@ -35,6 +36,7 @@
             <div class="menu">
                 <ul>
                     <li class="active"><a href="#header">Home</a></li>
+                    <li><a href="#aboutus">About us</a></li>
                     <li><a href="#howitwork">How it works</a></li>
                     <li><a href="#findYourStyle">Find your style</a></li>
                     <li><a href="#contact">Contact us</a></li>
@@ -53,60 +55,72 @@
                 </div>
                 <div class="room-icon-wrap">
                     <ul>
-                        <li class="room-box selected"><span class="circle"></span><i class="icon-event"></i><p>Living Room</p></li>
-                        <li class="room-box"><span class="circle"></span><i class="icon-event"></i><p>Kitchen</p></li>
-                        <li class="room-box"><span class="circle"></span><i class="icon-event"></i><p>Bathroom</p></li>
+                        <li class="room-box selected"><span class="circle"></span><i class="stylewall-icon icon-living_room"></i><p>Living Room</p></li>
+                        <li class="room-box"><span class="circle"></span><i class="stylewall-icon icon-kitchen"></i><p>Kitchen</p></li>
+                        <li class="room-box"><span class="circle"></span><i class="stylewall-icon icon-bedroom"></i><p>Bed Room</p></li>
                     </ul>
                 </div>
             </div>
         </header>
 
+        <section id="aboutus">
+            <div class="container-wrap">
+                <div class="how-text-wrap">
+                    <h2 class="text-top-line-bg">About us</h2>
+                    <p>Buying a house is more or less a dream of most people.</p>
+                    <p>Once you own a house, then comes the question how to furnish and decorate it and turn it into a home. Google can only take you as far as giving ideas to make it look beautiful. It may not be necessarily be functional or practical to implement what ever the search engine churns out. </p>
+                    <p>The next idea that might pop into your head would probably be stop by a furniture shop to pick out a look. Here again you may come across problems like zero customization, the house looking like a jigsaw puzzle with pieces that don’t match or something as vital as they don’t provide the service that you need. This is where we come in.</p>
+                    <p>Our back end team is fully equipped with the knowledge and skills needed to bring your dream home to life. Right from hiring the Top Designers in Bangalore who have made their mark in this field to the implementation team who are willing to bend over backwards to get the job done, we guarantee to you a hassle free design experience. We use nothing but the best materials available and do not compromise on the functionality of your home. Whatever your design style is, we have the expertise to transform it to reality.</p>
+                </div>
+            </div>
+        </section>
+
         <section id="howitwork">
             <div class="container-wrap">
                 <div class="how-text-wrap">
                     <h2 class="text-top-line-bg">How it Works</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                    <p>We believe interior design should be a hassle free experience that is easily accessible. We offer seamless interior design experience with the industry’s Top Interior Designers.</p>
                 </div>
                 <div class="how-process-wrap">
                     <div class="process-list">
                         <div class="list-wrap" tabindex="0">
                             <div class="overflow-text">01</div>
                             <div class="list-icon">
-                                <i class="icon-event"></i>
+                                <i class="stylewall-icon icon-seo"></i>
                             </div>
                             <div class="list-text">
                                 <h2 class="text-top-line-sm">Free Design Consultation</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                                <p>Fill out your details and we will hand pick a designer to set up a complimentary consultation for you.</p>
                             </div>
                         </div>
                         <div class="list-wrap" tabindex="0">
                             <div class="overflow-text">02</div>
                             <div class="list-icon">
-                                <i class="icon-event"></i>
+                                <i class="stylewall-icon icon-sketch"></i>
                             </div>
                             <div class="list-text">
                                 <h2 class="text-top-line-sm">Customize For Your Needs</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                                <p>Based on your inputs, your designer will create a proposal that can be further tweaked to suit your requirements.</p>
                             </div>
                         </div>
                         <div class="list-wrap" tabindex="0">
                             <div class="overflow-text">03</div>
                             <div class="list-icon">
-                                <i class="icon-event"></i>
+                                <i class="stylewall-icon icon-approved"></i>
                             </div>
                             <div class="list-text">
                                 <h2 class="text-top-line-sm">Approve Final Designs</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                                <p>Once the design is modified to suit on your needs, the project is all set for implementation.</p>
                             </div>
                         </div>
                         <div class="list-wrap" tabindex="0">
                             <div class="overflow-text">04</div>
                             <div class="list-icon">
-                                <i class="icon-event"></i>
+                                <i class="stylewall-icon icon-insurance"></i>
                             </div>
                             <div class="list-text">
                                 <h2 class="text-top-line-sm">Enjoy Your New Homes</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor</p>
+                                <p>Pack your bags and get ready to move in! Your dream home is now complete.</p>
                             </div>
                         </div>
                     </div>
@@ -118,35 +132,43 @@
             <div class="container-wrap">
                 <div class="find-text-wrap">
                     <h2 class="text-top-line-bg">Find your style</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. </p>
+                    <p>Browse through our catalogue and you are sure to find something that will appeal to you. Be it Contemporary, Classical or Industrial, whatever your style is, we have them all. Take a look at our themes, pick a style that appeals to you the most, submit your contact  details, and leave the rest to us. You can sit back and relax as our team of experts get to work to transform your house into beautiful home.</p>
                 </div>
                 <div class="find-img-wrap">
                     <div class="find-list-wrap">
                         <div class="find-list">
-                            <img src="img/Jodhpur_Living_FINAL1920x1080.jpg">
-                            <div class="style-text">
-                                <h2 class="text-top-line-sm">White Magic</h2>
-                            </div>
+                            <a href="theme_one.html">
+                                <img src="img/theme/theme_one/theme_one_1_small.jpg">
+                                <div class="style-text">
+                                    <h2 class="text-top-line-sm">Theme One</h2>
+                                </div>
+                            </a>
                         </div>
                         <div class="find-list">
-                            <img src="img/Dinning_HD1.jpg">
-                            <div class="style-text">
-                                <h2 class="text-top-line-sm">Graffiti Rebel</h2>
-                            </div>
+                            <a href="theme_two.html">
+                                <img src="img/theme/theme_two/theme_two_1_small.jpg">
+                                <div class="style-text">
+                                    <h2 class="text-top-line-sm">Theme Two</h2>
+                                </div>
+                            </a>
                         </div>
                         <div class="find-list">
-                            <img src="img/Eiffel_Living_FINAL1920x1080.jpg">
-                            <div class="style-text">
-                                <h2 class="text-top-line-sm">Dorset Tones</h2>
-                            </div>
+                            <a href="theme_three.html">
+                                <img src="img/theme/theme_three/theme_three_1_small.jpg">
+                                <div class="style-text">
+                                    <h2 class="text-top-line-sm">Theme Three</h2>
+                                </div>
+                            </a>
                         </div>
                         <div class="find-list">
-                            <img src="img/Istanbul_Living_FINAL1920x1080.jpg">
-                            <div class="style-text">
-                                <h2 class="text-top-line-sm">Turkish Delight</h2>
-                            </div>
+                            <a href="theme_four.html">
+                                <img src="img/theme/theme_four/theme_four_1_small.jpg">
+                                <div class="style-text">
+                                    <h2 class="text-top-line-sm">Theme Four</h2>
+                                </div>
+                            </a>
                         </div>
-                        <div class="find-list">
+                        <!--<div class="find-list">
                             <img src="img/Living.jpg">
                             <div class="style-text">
                                 <h2 class="text-top-line-sm">Paris Hipster</h2>
@@ -157,12 +179,12 @@
                             <div class="style-text">
                                 <h2 class="text-top-line-sm">Summer Blues</h2>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                 </div>
             </div>
         </section>
-
+   
         <section class="contact-wrap" id="contact">
             <div class="container-wrap">                
                 <div class="section-heading">
@@ -202,18 +224,18 @@
                     </div>
 
                     <div class="google-map-wrap">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15552.02972501461!2d77.6482057!3d12.9713761!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x986e7f33dca76d86!2sCasaNyla+Decor+Services+Pvt+Ltd!5e0!3m2!1sen!2s!4v1499929592012" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen=""></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3889.4424101653303!2d77.64093511482105!3d12.879249190916495!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x2cba745e2c76f5a8!2sStylewalls.in!5e0!3m2!1sen!2sus!4v1518460412638" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
-
+    
                 <div class="contact-text-wrap">
                     <div class="contact-text-section mail-section">
                         <div class="heading-section">
                             <h2 class="text-top-line-sm">Write<br/> Us</h2>
                         </div>
                         <div class="text-section">
-                            <p class="head">Support</p>
-                            <p>support@name.com</p>
+                            <p class="head">Sales</p>
+                            <p>sales@stylewalls.in</p>
                         </div>
                     </div>
                     <div class="contact-text-section call-section">
@@ -222,9 +244,7 @@
                         </div>
                         <div class="text-section">
                             <p class="head">Office</p>
-                            <p>+91 1234567890</p>
-                            <p class="head">Office</p>
-                            <p>+91 1234567890</p>
+                            <p>+91 95664 93350</p>
                         </div>
                     </div>
                     <div class="contact-text-section address-section">
@@ -232,13 +252,13 @@
                             <h2 class="text-top-line-sm">Visit<br/> Us</h2>
                         </div>
                         <div class="text-section">
-                            <p>111, 2nd Cross Road Hal, 2nd Cross Rd, Hal, HAL 3rd Stage, New Tippasandra, Bengaluru, Karnataka 560075</p>
+                            <p>105, Lotus Ecstasy, Hosur Rd, Wellington Paradise, Singasandra, Bengaluru, Karnataka 560068, India</p>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
+   
         <footer>
             <div class="container-wrap">
                 <div class="copyright-wrap">

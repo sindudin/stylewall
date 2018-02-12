@@ -30,7 +30,7 @@ $(window).scroll(function() {
     } else {
         $('nav').removeClass('fixed-header');
     }
-    $('header,section').each(function(i) {
+    $('header,section','#homePage').each(function(i) {
         if ($(this).position().top <= scrollDistance) {
         	var id = $(this).attr('id');
             $('.menu li.active').removeClass('active');
@@ -51,5 +51,6 @@ $(document).ready(function() {
 
     $(".room-box").removeClass("selected");
     $(this).addClass("selected");
-  });
+  });  
 });
+
