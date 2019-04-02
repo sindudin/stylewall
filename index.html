@@ -16,7 +16,9 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/simple-line-icons.css">
-        <link rel="stylesheet" href="css/iconmoon.css">  
+        <link rel="stylesheet" href="css/iconmoon.css"> 
+        <link rel="stylesheet" href="css/vendor/OwlCarousel2-2.3.4/assets/owl.carousel.min.css">
+        <link rel="stylesheet" href="css/vendor/OwlCarousel2-2.3.4/assets/owl.theme.default.min.css"> 
     </head>
     <body id="homePage">
         <!--[if lte IE 9]>
@@ -45,9 +47,9 @@
         </nav>
 
         <header id="header">
-            <div class="header-cover header-img-one opaque"></div>
+            <!-- <div class="header-cover header-img-one opaque"></div>
             <div class="header-cover header-img-two"></div>
-            <div class="header-cover header-img-three"></div>
+            <div class="header-cover header-img-three"></div> -->
             <div class="container-wrap">
                 <div class="header-text-wrap">
                     <p>Welcome to <br>stylewall.in</p>
@@ -61,6 +63,11 @@
                     </ul>
                 </div>
             </div>
+            <div class="style-slider owl-carousel">
+                <div><img src="/img/living_room.jpg" /></div>
+                <div><img src="/img/kitchen.jpg"> </div>
+                <div><img src="/img/Living.jpg"> </div>
+              </div>
         </header>
 
         <section id="aboutus">
@@ -279,6 +286,7 @@
         <script src="js/vendor/modernizr-3.5.0.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/vendor/owl.carousel.min.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
     </body>
